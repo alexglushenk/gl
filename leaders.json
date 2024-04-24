@@ -1,0 +1,156 @@
+{
+    "leaders": [
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560538/david-ben-gurion_gtes0z.webp",
+        "title": "David Ben Gurion",
+        "description": "First Prime Minister of Israel and a key founding figure of modern Israel.",
+        "link": "https://en.wikipedia.org/wiki/David_Ben-Gurion"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560536/Shimon_Peres_e513ij.webp",
+        "title": "Shimon Peres",
+        "description": "Former President and Prime Minister of Israel, Nobel Peace Prize laureate.",
+        "link": "https://en.wikipedia.org/wiki/Shimon_Peres"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560534/GoldaMeirFlickr_gru2qt.webp",
+        "title": "Golda Meir",
+        "description": "Fourth Prime Minister of Israel and the world's fourth female head of government.",
+        "link": "https://en.wikipedia.org/wiki/Golda_Meir"
+      },
+     
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560532/Reigan_c8ie2i.webp",
+        "title": "Ronald Reagan",
+        "description": "40th President of the United States, known for his conservative policies.",
+        "link": "https://en.wikipedia.org/wiki/Ronald_Reagan"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560536/Margaret-Thatcher_lkaqvm.webp",
+        "title": "Margaret Thatcher",
+        "description": "First female Prime Minister of the United Kingdom, known as the 'Iron Lady'.",
+        "link": "https://en.wikipedia.org/wiki/Margaret_Thatcher"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560536/WinstonCherchell_gjbgjm.webp",
+        "title": "Winston Churchill",
+        "description": "British Prime Minister during World War II, known for his powerful speeches.",
+        "link": "https://en.wikipedia.org/wiki/Winston_Churchill"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560531/ArielSharon_zexmpg.webp",
+        "title": "Ariel Sharon",
+        "description": "Israeli general and politician who served as the 11th prime minister of Israel ",
+        "link": "https://en.wikipedia.org/wiki/Ariel_Sharon"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560531/plisetskaya_if8ydx.webp",
+        "title": "Maya Plisetskaya",
+        "description": "Renowned Russian ballet dancer and choreographer.",
+        "link": "https://en.wikipedia.org/wiki/Maya_Plisetskaya"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1702192190/ranevskaya_kmk1zm.webp",
+        "title": "Faina Ranevskaya",
+        "description": "One of the greatest Soviet actresses in both tragedy and comedy. She was also famous for her aphorisms.",
+        "link": "https://en.wikipedia.org/wiki/Faina_Ranevskaya"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560530/AllaPugacheva_hwbxkc.webp",
+        "title": "Alla Pugacheva",
+        "description": "Soviet and Russian musical icon, known for her contributions to pop music.",
+        "link": "https://en.wikipedia.org/wiki/Alla_Pugacheva"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560535/Sakharov_dvkj8x.webp",
+        "title": "Andrei Sakharov",
+        "description": "Soviet nuclear physicist, human rights activist, and Nobel Peace Prize laureate.",
+        "link": "https://en.wikipedia.org/wiki/Andrei_Sakharov"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560530/Albert_Einshtein_tvisqk.webp",
+        "title": "Albert Einstein",
+        "description": "Theoretical physicist known for the theory of relativity and E=mc².",
+        "link": "https://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560531/Mstislav_Rostropovich_gzaiyr.webp",
+        "title": "Mstislav Rostropovich",
+        "description": "Russian cellist and conductor.",
+        "link": "https://en.wikipedia.org/wiki/Mstislav_Rostropovich"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560535/Shalom_Aleichem_y9owmp.webp",
+        "title": "Shalom Aleichem",
+        "description": "Yiddish writer and playwright, known for Tevye the Dairyman stories.",
+        "link": "https://en.wikipedia.org/wiki/Shalom_Aleichem"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560535/marc-chagall_dfiicg.webp",
+        "title": "Marc Chagall",
+        "description": "Russian-French artist known for his distinctive, dreamlike style.",
+        "link": "https://en.wikipedia.org/wiki/Marc_Chagall"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560537/LevTolstoy_ku0uej.webp",
+        "title": "Lev Tolstoy",
+        "description": "Russian writer known for 'War and Peace' and 'Anna Karenina'.",
+        "link": "https://en.wikipedia.org/wiki/Leo_Tolstoy"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560531/Pasternak_d6ujx4.webp",
+        "title": "Boris Pasternak",
+        "description": "Russian poet, novelist, and literary translator, awarded the Nobel Prize in Literature.",
+        "link": "https://en.wikipedia.org/wiki/Boris_Pasternak"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560530/anna_achmatova_omj2ly.webp",
+        "title": "Anna Akhmatova",
+        "description": "Prominent Russian poet and literary figure of the Silver Age.",
+        "link": "https://en.wikipedia.org/wiki/Anna_Akhmatova"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560533/BarbarStraisend_ui4thl.webp",
+        "title": "Barbra Streisand",
+        "description": "An American singer, actress, and filmmaker, known for her contributions to music, theater, and film.",
+        "link": "https://en.wikipedia.org/wiki/Barbra_Streisand"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560540/Pushkin_bswc9r.webp",
+        "title": "Alexander Pushkin",
+        "description": "Russian poet, playwright, and novelist, considered the founder of modern Russian literature.",
+        "link": "https://en.wikipedia.org/wiki/Alexander_Pushkin"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560532/anton-chekhov_zdnsbs.webp",
+        "title": "Anton Chekhov",
+        "description": "Russian playwright and short-story writer known for 'The Cherry Orchard' and 'Uncle Vanya'.",
+        "link": "https://en.wikipedia.org/wiki/Anton_Chekhov"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560535/dmitry-shostakovich8_dehvni.webp",
+        "title": "Dmitri Shostakovich",
+        "description": "Soviet composer and pianist, known for his symphonies and string quartets.",
+        "link": "https://en.wikipedia.org/wiki/Dmitri_Shostakovich"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560536/Misha_vecxtt.webp",
+        "title": "Misha",
+        "description": "Russian Bear mascot of the 1980 Moscow Olympic Games",
+        "link": "https://en.wikipedia.org/wiki/Misha"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560531/Benjamin_Netanyahu_qx4bbh.webp",
+        "title": "Benjamin Netanyahu",
+        "description": "Israeli politician, served as Prime Minister of Israel multiple times.",
+        "link": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560537/Yevgeny-Yevtushenko_gmjwnp.webp",
+        "title": "Yevgeny Yevtushenko",
+        "description": "Soviet and Russian poet, film director, and actor, known for his social and political poetry.",
+        "link": "https://en.wikipedia.org/wiki/Yevgeny_Yevtushenko"
+      }
+    ]
+  }
+  

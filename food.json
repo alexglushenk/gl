@@ -1,0 +1,414 @@
+{
+    "Global": [
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560591/food/global_gastronomy_steaks_krsaoo.webp",
+          "title": "Steaks",
+          "description": "High-quality cuts of meat cooked to preference",
+          "link": "https://en.wikipedia.org/wiki/Steak"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560593/food/global_gastronomy_barbecue_fish_np0xti.webp",
+          "title": "Barbecue Fish",
+          "description": "Fish grilled or smoked over an open fire or on a barbecue",
+          "link": "https://en.wikipedia.org/wiki/Barbecue_fish"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560606/food/global_gastronomy_ceviche_e5uvqo.webp",
+          "title": "Ceviche",
+          "description": "A seafood dish made from fresh raw fish cured in citrus juices",
+          "link": "https://en.wikipedia.org/wiki/Ceviche"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560607/food/global_gastronomy_curry_pr4n8m.webp",
+          "title": "Curry",
+          "description": "A variety of dishes originating in the Indian subcontinent that use a complex combination of spices",
+          "link": "https://en.wikipedia.org/wiki/Curry"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560659/food/global_gastronomy_carpaccio_jiql8a.webp",
+          "title": "Carpaccio",
+          "description": "Dish of thinly sliced raw meat or fish, drizzled with olive oil",
+          "link": "https://en.wikipedia.org/wiki/Carpaccio"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560620/food/global_gastronomy_hummus_e2wag1.webp",
+          "title": "Hummus",
+          "description": "A thick, creamy paste made from ground chickpeas and other ingredients",
+          "link": "https://en.wikipedia.org/wiki/Hummus"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560623/food/global_gastronomy_falafel_rfbeg1.webp",
+          "title": "Falafel",
+          "description": "A deep-fried ball or patty made from ground chickpeas, fava beans, or both",
+          "link": "https://en.wikipedia.org/wiki/Falafel"
+        },
+        {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560607/food/global_gastronomy_cr%C3%A8me_br%C3%BBl%C3%A9e_dpgnv7.webp",
+            "title": "Crème Brûlée",
+            "description": "A rich custard base topped with a layer of hardened caramelized sugar",
+            "link": "https://en.wikipedia.org/wiki/Cr%C3%A8me_br%C3%BBl%C3%A9e"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560596/food/global_gastronomy_tiramisu_exsqjn.webp",
+            "title": "Tiramisu",
+            "description": "A coffee-flavoured Italian dessert",
+            "link": "https://en.wikipedia.org/wiki/Tiramisu"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560597/food/global_gastronomy_%C3%A9clair_v44akc.webp",
+            "title": "Éclair",
+            "description": "A pastry made with choux dough filled with a cream and topped with a flavored icing",
+            "link": "https://en.wikipedia.org/wiki/%C3%89clair"
+          },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560609/food/global_gastronomy_tahini_skirzb.webp",
+          "title": "Tahini",
+          "description": "A condiment made from toasted ground hulled sesame",
+          "link": "https://en.wikipedia.org/wiki/Tahini"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560616/food/global_gastronomy_greek_salad_xktceq.webp",
+          "title": "Greek Salad",
+          "description": "A salad made primarily of tomatoes, cucumbers, olives, feta cheese, and a dressing",
+          "link": "https://en.wikipedia.org/wiki/Greek_salad"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560623/food/global_gastronomy_nicoise_salad_y6zwf0.webp",
+          "title": "Nicoise Salad",
+          "description": "A salad originating from Nice, France, typically made of tomatoes, hard-boiled eggs, Niçoise olives, anchovies, and various green beans",
+          "link": "https://en.wikipedia.org/wiki/Salade_ni%C3%A7oise"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560592/food/global_gastronomy_brie_ygi8u3.webp",
+          "title": "Brie cheese",
+          "description": "Brie is a soft cow's-milk cheese named after Brie, the French region from which it originated.",
+          "link": "https://en.wikipedia.org/wiki/Brie"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560597/food/global_gastronomy_camambert_famrju.webp",
+          "title": "Camembert",
+          "description": "Camembert is a moist, soft, creamy, surface-ripened cow's milk cheese. It was first made in the late 18th century in Camembert, Normandy, in northwest France.",
+          "link": "https://en.wikipedia.org/wiki/Camembert"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560607/food/global_gastronomy_buche_cheese_k0fjng.webp",
+          "title": "Buche cheese",
+          "description": "Buche de Chevre is an exquisite soft cheese made from goat's milk and produced in the Poitou-Charentes region in the Loire Valley of central France. ",
+          "link": "https://www.cheese.com/buche-de-chevre/"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560607/food/global_gastronomy_burrata_namllt.webp",
+          "title": "Burrata",
+          "description": "Burrata is an Italian cow milk cheese made from mozzarella and cream",
+          "link": "https://en.wikipedia.org/wiki/Burrata"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560612/food/global_gastronomy_amba_iry3s0.webp",
+          "title": "Amba",
+          "description": "Amba or anba is a tangy mango pickle condiment of Indo-Iraqi origin.",
+          "link": "https://en.wikipedia.org/wiki/Amba_(condiment)"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560629/food/global_gastronomy_donar_kebab_d8p9fn.webp",
+          "title": "Donar kebab",
+          "description": "Doner kebab, also spelled as döner kebab, is a dish of Turkish origin made of meat cooked on a vertical rotisserie.",
+          "link": "https://en.wikipedia.org/wiki/Doner_kebab"
+        },
+        {
+          "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1696091822/food/red_wine_mdad5g.webp",
+          "title": "Red Wine",
+          "description": "Red wine is a type of wine made from dark-colored grape varieties.",
+          "link": "https://en.wikipedia.org/wiki/Red_wine"
+        }
+      ],
+    
+    "Russian": [
+      
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560607/food/russian_food_pelmeni_phmrpj.webp",
+        "title": "Pelmeni",
+        "description": "Pelmeni are dumplings of Russian cuisine that consist of a filling wrapped in thin, unleavened dough. It is debated whether they originated in Ural or Siberia. Pelmeni have been described as the heart of Russian cuisine",
+        "link": "https://en.wikipedia.org/wiki/Pelmeni"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560616/food/russian_food_blini_hthdxm.webp",
+        "title": "Blini",
+        "description": "Traditionally also called a blin is a Russian and more broadly Eastern European pancake traditionally made from buckwheat flour or nowadays wheat and served with smetana, tvorog, butter, caviar and other garnishes.",
+        "link": "https://en.wikipedia.org/wiki/Blini"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560594/food/russian_food_berries_bhehqf.webp",
+        "title": "Berries",
+        "description": "Berries are very tasty and useful gifts from nature. They are a delight for even the most fastidious taste, loved by young and old. Berries are fragrant and fresh, useful for your memory and heart.",
+        "link": "https://en.wikipedia.org/wiki/Berry"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560645/food/russian_food_caviar_ohw48j.webp",
+        "title": "Caviar",
+        "description": "Caviar is a food consisting of salt-cured roe of the family Acipenseridae. Caviar is considered a delicacy and is eaten as a garnish or spread.",
+        "link": "https://en.wikipedia.org/wiki/Caviar"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560606/food/russian_food_vodka_raryvo.webp",
+        "title": "Vodka",
+        "description": "Vodka is a clear distilled alcoholic beverage. Different varieties originated in Poland, Russia, and Sweden. Vodka is composed mainly of water and ethanol but sometimes with traces of impurities and flavourings.",
+        "link": "https://en.wikipedia.org/wiki/Vodka"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560607/food/russian_food_birch_sap_xdmmpj.webp",
+        "title": "Birch Sap",
+        "description": "Birch sap, birch water or birch juice is the sap directly tapped from birch trees, Betula pubescens, Betula pendula, Betula lenta, Betula papyrifera, and Betula fontinalis.",
+        "link": "https://en.wikipedia.org/wiki/Birch_sap"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560594/food/russian_food_piroshki_ggisiv.webp",
+        "title": "Pirozhki",
+        "description": "Pirozhki are foremost, Russian baked or fried yeast-leavened boat-shaped buns with a variety of fillings. Pirozhki are a popular street food and comfort food in Eastern Europe.",
+        "link": "https://en.wikipedia.org/wiki/Pirozhki"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560595/food/russian_food_plombir_jb6p5u.webp",
+        "title": "Plombir",
+        "description": "Plombir is a type of Soviet ice cream made with vanilla, cream, eggs, and sugar. It was subject to national Soviet standards, which required that it be made with natural ingredients and meet specifications for consistency and fat and sugar content.",
+        "link": "https://en.wikipedia.org/wiki/Plombir"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560664/food/russian_food_draniki_knidlk.webp",
+        "title": "Draniki",
+        "description": "Draniki are shallow-fried pancakes of grated or ground potato, matzo meal or flour and a binding ingredient such as egg or applesauce, often flavored with grated garlic or onion and seasonings.",
+        "link": "https://en.wikipedia.org/wiki/Potato_pancake"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560624/food/russian_food_lisichky_pgzuvw.webp",
+        "title": "Lisichky",
+        "description": "Cantharellus cibarius is a species of golden chanterelle mushroom in the genus Cantharellus. It is also known as girolle. It grows in Europe from Scandinavia to the Mediterranean Basin, mainly in deciduous and coniferous forests. ",
+        "link": "https://en.wikipedia.org/wiki/Chanterelle"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560592/food/russian_food_ucha_vailwa.webp",
+        "title": "Ukha",
+        "description": "Ukha is a clear Russian soup, made from various types of fish such as bream, wels catfish, northern pike, or even ruffe.",
+        "link": "https://en.wikipedia.org/wiki/Ukha"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560597/food/russian_food_dark_bread_bises1.webp",
+        "title": "Dark Bread",
+        "description": "Dark rye bread is a traditional Russian bread made with dark rye flour, molasses, fresh coriander seeds and caraway. It's classically made using rye sourdough starter, but can be made with regular starter or yeast.",
+        "link": "https://en.wikipedia.org/wiki/Rye_bread"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560604/food/russian_food_borscht_fyabcq.webp",
+        "title": "Borscht",
+        "description": "Borscht is a sour soup, made with meat stock, vegetables and seasonings.",
+        "link": "https://en.wikipedia.org/wiki/Borscht"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560608/food/russian_food_smetannik_mitats.webp",
+        "title": "Smetannik",
+        "description": "Tort Smetannik means a cake with sour cream.",
+        "link": "https://www.alyonascooking.com/super-moist-smetannik-cake-sour-cream-cake/"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560623/food/russian_food_shuba_mpfetr.webp",
+        "title": "Shuba",
+        "description": "Shuba salad, or “Herring Under a Fur Coat,” is a layered salad of pickled herring fillets, finely chopped onion, beets, carrots",
+        "link": "https://momsdish.com/recipe/132/shuba-fur-coat-salad"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560612/food/russian_food_olivier_vhng1f.webp",
+        "title": "Olivier",
+        "description": "Olivier salad is a traditional salad dish in Russian cuisine, which is also popular in other post-Soviet countries and around the world.",
+        "link": "https://en.wikipedia.org/wiki/Olivier_salad"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560606/food/russian_food_medovik_myd6f5.webp",
+        "title": "Medovik",
+        "description": "Medovik is a layer cake popular in countries of the former Soviet Union. The identifying ingredients are honey and smetana (sour cream) or condensed milk.",
+        "link": "https://en.wikipedia.org/wiki/Medovik"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560604/food/russian_food_napolion_burgde.webp",
+        "title": "Napolion",
+        "description": "Napoleon cake is a perfectly moist and deliciously creamy dessert made of crunchy puff pastry and silky pastry cream",
+        "link": "https://en.wikipedia.org/wiki/Mille-feuille"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560591/food/russian_food_sharlotka_rvsxav.webp",
+        "title": "Sharlotka",
+        "description": "Sharlotka is a classic Russian apple cake. In some parts of the world, it’s known as the French Apple cake.",
+        "link": "https://momsdish.com/recipe/388/sharlotka-apple-cake-recipe"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560605/food/russian_food_kyiv_cake_grsq9k.webp",
+        "title": "Kyiv cake",
+        "description": "Kyiv cake is a dessert cake produced in Kyiv, Ukraine since December 6, 1956 by the Karl Marx Confectionery Factory which is now a subsidiary of the Roshen corporation. ",
+        "link": "https://en.wikipedia.org/wiki/Kyiv_cake"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560627/food/russian_food_bird_milk_tlemg4.webp",
+        "title": "Bird milk",
+        "description": "Bird's milk is a Central European confectionery originating in Poland. It is a small, chocolate-covered bar with a soft marshmallow-like interior.",
+        "link": "https://en.wikipedia.org/wiki/Ptasie_mleczko"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560633/food/russian_food_plov_h0ojyn.webp",
+        "title": "Plov",
+        "description": "Pilaf or pilau is a rice dish, or in some regions, a wheat dish, whose recipe usually involves cooking in stock or broth.",
+        "link": "https://en.wikipedia.org/wiki/Pilaf"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560605/food/russian_food_dried_fish_fzponq.webp",
+        "title": "Dried Fish",
+        "description": "Fresh fish rapidly deteriorates unless some way can be found to preserve it.",
+        "link": "https://en.wikipedia.org/wiki/Dried_fish"
+      },
+      {
+        "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560596/food/russian_food_salted_and_marinated_fish_b3j8co.webp",
+        "title": "Salted and marinated Fish",
+        "description": "Salted fish, such as kippered herring or dried and salted cod, is fish cured with dry salt and thus preserved for later eating",
+        "link": "https://en.wikipedia.org/wiki/Salted_fish"
+      }
+
+
+    ],
+    "Jewish": [
+        {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560593/food/jewish_food_challah_ptf5vc.webp",
+            "title": "Challah",
+            "description": "A traditional Jewish bread",
+            "link": "https://en.wikipedia.org/wiki/Challah"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560628/food/jewish_food_gefilte_fish_trmiru.webp",
+            "title": "Gefilte fish",
+            "description": "A dish made from a poached mixture of ground deboned fish, such as carp, whitefish, or pike",
+            "link": "https://en.wikipedia.org/wiki/Gefilte_fish"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560592/food/jewish_food_chopped_liver_lyfvkz.webp",
+            "title": "Chopped liver",
+            "description": "A spread popular in Jewish cuisine made by chopping or grinding liver",
+            "link": "https://en.wikipedia.org/wiki/Liver_pâté#Chopped_liver"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560593/food/jewish_food_pitcha_pih8pc.webp",
+            "title": "P'tcha",
+            "description": "A traditional Jewish dish made from jellied calves' feet",
+            "link": "https://en.wikipedia.org/wiki/P%27tcha"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560607/food/jewish_food_chraime_eldt3c.webp",
+            "title": "Chraime",
+            "description": "A spicy fish stew dish in Jewish cuisine",
+            "link": "https://en.wikipedia.org/wiki/Chraime"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560603/food/jewish_food_chrain_wbgylr.webp",
+            "title": "Chrain",
+            "description": "A type of horseradish paste used in Jewish cuisine",
+            "link": "https://en.wikipedia.org/wiki/Horseradish#Chrain"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560593/food/jewish_food_chicken_soup_eoqbab.webp",
+            "title": "Chicken soup",
+            "description": "A soup made from chicken, simmered in water, usually with various other ingredients",
+            "link": "https://en.wikipedia.org/wiki/Chicken_soup"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560593/food/jewish_food_knaidalach_q8unk6.webp",
+            "title": "Knedalach",
+            "description": "Dumplings often served in chicken soup",
+            "link": "https://en.wikipedia.org/wiki/Matzo_ball"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560615/food/jewish_food_matzah_brei_hu3dwc.webp",
+            "title": "Matzah brei",
+            "description": "A dish of Ashkenazi Jewish origin made from matzah fried with eggs",
+            "link": "https://en.wikipedia.org/wiki/Matzo_brei"
+          },
+          
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560597/food/jewish_food_lox_kuzxh5.webp",
+            "title": "Lox",
+            "description": "Lox is a fillet of brined salmon, which may be smoked.",
+            "link": "https://en.wikipedia.org/wiki/Lox"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560606/food/jewish_food_latke_m67bkm.webp",
+            "title": "Latke",
+            "description": "A type of potato pancake or fritter in Ashkenazi Jewish cuisine that is traditionally prepared to celebrate Hanukkah",
+            "link": "https://en.wikipedia.org/wiki/Latke"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560619/food/jewish_food_forshmak_panfdy.webp",
+            "title": "Forshmak",
+            "description": "It's probably the most authentically Jewish herring recipe. The word itself is Yiddish for “pre-taste”–that is, an appetizer, meant to set your taste buds going",
+            "link": "https://www.myjewishlearning.com/recipe/forshmak/"
+          }
+    ],
+    "Georgian": [
+        {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560594/food/georgian_food_khachapuri_tksoq0.webp",
+            "title": "Khachapuri",
+            "description": "A traditional Georgian cheese-filled bread",
+            "link": "https://en.wikipedia.org/wiki/Khachapuri"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560594/food/georgian_food_khinkali_rvjfp2.webp",
+            "title": "Khinkali",
+            "description": "A Georgian dumpling filled with spiced meat",
+            "link": "https://en.wikipedia.org/wiki/Khinkali"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560592/food/georgian_food_satsivi_fkxlx6.webp",
+            "title": "Satsivi",
+            "description": "A thick paste made from walnuts and served cold",
+            "link": "https://en.wikipedia.org/wiki/Satsivi"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560626/food/georgian_food_mtsvadi_iuer5o.webp",
+            "title": "Mtsvadi",
+            "description": "Georgian shashlik or barbecue",
+            "link": "https://en.wikipedia.org/wiki/Shashlik"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560606/food/georgian_food_chakhokhbili_zzdigo.webp",
+            "title": "Chakhokhbili",
+            "description": "A traditional Georgian dish made from stewed chicken",
+            "link": "https://en.wikipedia.org/wiki/Chakhokhbili"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560597/food/georgian_food_badrijani_nigvzit_wccoc0.webp",
+            "title": "Badrijani Nigvzit",
+            "description": "Eggplant rolls filled with a walnut paste",
+            "link": "https://en.wikipedia.org/wiki/Badrijani"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560592/food/georgian_food_lobio_po1jcv.webp",
+            "title": "Lobio",
+            "description": "A Georgian dish made with kidney beans",
+            "link": "https://en.wikipedia.org/wiki/Lobio"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560597/food/georgian_food_kharcho_dsymky.webp",
+            "title": "Kharcho",
+            "description": "A spicy soup made with beef, rice, and walnuts",
+            "link": "https://en.wikipedia.org/wiki/Kharcho"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560598/food/georgian_food_ajapsandali_uhynzs.webp",
+            "title": "Ajapsandali",
+            "description": "A vegetarian dish made from eggplants, potatoes, and tomatoes",
+            "link": "https://en.wikipedia.org/wiki/Ajapsandali"
+          },
+          {
+            "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560620/food/georgian_food_churchkhela_rredso.webp",
+            "title": "Churchkhela",
+            "description": "A traditional Georgian candle-shaped candy",
+            "link": "https://en.wikipedia.org/wiki/Churchkhela"
+          }
+    ]
+    
+     
+  
+    }

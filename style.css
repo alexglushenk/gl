@@ -1,0 +1,1290 @@
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='50' height='50' patternTransform='scale(1) rotate(135)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(210, 17%, 98%, 1)'/><path d='M25 2.48s-.14.16-.32.44c-.2.28-.42.7-.62 1.18a9 9 0 00-.5 1.65c-.06.36-.12.72-.14 1.1a2.88 2.88 0 00-4.12 3.16 3.6 3.6 0 012.14-.7c.18 0 .34.02.52.04 1.26.16 2.36.88 3.04 1.9a4.32 4.32 0 013.04-1.9c.18-.02.34-.04.52-.04.8 0 1.54.26 2.14.7a2.88 2.88 0 00-4.12-3.16c-.02-.38-.08-.74-.14-1.1a9 9 0 00-.5-1.65c-.2-.48-.42-.9-.62-1.18-.18-.28-.32-.44-.32-.44zm-9 6.59a2.88 2.88 0 00-2.73 1.98 9.2 9.2 0 00-3.66-1.88 6.46 6.46 0 00-.54-.08s0 .22.08.54a8.74 8.74 0 001.88 3.65 2.9 2.9 0 00-1.14 4.78c.16.14.32.28.48.38a3.7 3.7 0 011.42-2.34 4.29 4.29 0 013.5-.82 4.2 4.2 0 011.14-3.87c.56-.58 1.26-.9 2-1.02A2.88 2.88 0 0016 9.07zm18 0a2.88 2.88 0 00-2.43 1.32 3.51 3.51 0 012.34 1.42 4.2 4.2 0 01.8 3.47 4.29 4.29 0 013.9 1.16c.56.56.9 1.28 1.02 2a2.9 2.9 0 00-.66-5.15 9.17 9.17 0 001.88-3.66c.08-.32.08-.54.08-.54s-.22.02-.54.08a8 8 0 00-2.78 1.22c-.3.2-.6.42-.88.66a2.88 2.88 0 00-2.74-1.98zM9.4 19.24a2.88 2.88 0 00-2.56 4.17 9 9 0 00-2.76.64 8.79 8.79 0 00-1.61.94l.01.01-.01.01s.16.14.44.32.68.4 1.18.62a9 9 0 002.75.64 2.88 2.88 0 003.16 4.12 3.6 3.6 0 01-.66-2.66 4.32 4.32 0 011.9-3.04l-.01-.01.01-.01a4.32 4.32 0 01-1.94-3.56c0-.8.26-1.53.7-2.13-.18-.04-.4-.06-.6-.06zm31.18 0c-.2 0-.42.02-.6.06a3.6 3.6 0 01.66 2.65 4.32 4.32 0 01-1.9 3.04l.01.01-.01.01a4.32 4.32 0 011.94 3.56c0 .8-.26 1.53-.7 2.13a2.88 2.88 0 003.16-4.12 9 9 0 002.76-.64c.5-.21.9-.43 1.17-.61.28-.18.44-.32.44-.32l-.01-.01.01-.01s-.16-.14-.44-.32-.68-.4-1.18-.62a9 9 0 00-2.75-.64 2.88 2.88 0 00-2.56-4.18zM10.37 31.56a2.9 2.9 0 00.66 5.15 9.17 9.17 0 00-1.88 3.66c-.08.32-.08.54-.08.54s.22-.02.54-.08a8 8 0 002.78-1.22c.3-.2.6-.42.88-.66a2.88 2.88 0 005.16.66 3.51 3.51 0 01-2.34-1.42 4.2 4.2 0 01-.8-3.47 4.29 4.29 0 01-3.9-1.16 3.7 3.7 0 01-1.02-2zm29.26 0a3.7 3.7 0 01-1.42 2.34 4.29 4.29 0 01-3.5.82 4.2 4.2 0 01-1.14 3.87c-.56.58-1.26.9-2 1.02a2.88 2.88 0 004.46.48c.34-.32.56-.72.7-1.14a9.2 9.2 0 003.66 1.88c.32.06.54.08.54.08s0-.22-.08-.54a8.74 8.74 0 00-1.88-3.65 2.9 2.9 0 001.14-4.78c-.16-.14-.32-.28-.48-.38zM25 38.76a4.32 4.32 0 01-3.04 1.89c-.18.02-.34.04-.52.04a3.6 3.6 0 01-2.14-.7 2.88 2.88 0 004.12 3.16c.02.38.08.74.14 1.1a9 9 0 00.5 1.65c.2.48.42.9.62 1.18.18.28.32.44.32.44s.14-.16.32-.44c.2-.28.42-.7.62-1.18a9 9 0 00.5-1.65c.06-.36.12-.72.14-1.1a2.88 2.88 0 004.12-3.16c-.6.44-1.34.7-2.14.7-.18 0-.34-.02-.52-.04a4.32 4.32 0 01-3.04-1.9z'  stroke-width='1' stroke='none' fill='hsla(289, 4%, 80%, 1)'/><path d='M42.39 49.24a6.09 6.09 0 001.16-4.97l-.22-1.04 1.03.22a6.1 6.1 0 004.96-1.14h.02c.2-.14.38-.3.56-.48l.1-.1v1.84a7.41 7.41 0 01-4.94 1.4c.14 1.8-.38 3.6-1.47 5.03H41.7a.95.95 0 00.2-.2l.48-.56zm-34.78 0a6.09 6.09 0 01-1.16-4.97l.22-1.04-1.03.22A6.1 6.1 0 01.68 42.3H.66c-.2-.14-.38-.3-.56-.48l-.1-.1v1.84a7.41 7.41 0 004.94 1.4c-.14 1.8.38 3.6 1.47 5.03H8.3a.95.95 0 01-.2-.2l-.48-.56zm0-48.48a6.09 6.09 0 00-1.16 4.97l.22 1.04-1.03-.22A6.1 6.1 0 00.68 7.7H.66c-.2.14-.38.3-.56.48l-.1.1V6.43a7.41 7.41 0 014.94-1.4C4.8 3.23 5.32 1.43 6.4 0H8.3a.95.95 0 00-.2.2l-.48.56zm14.5 17.26s-.07.18-.13.48a6.29 6.29 0 00.08 2.71c.08.38.18.74.32 1.12a8.6 8.6 0 00-2.66-.44 8 8 0 00-1.18.12c-.3.06-.47.12-.47.12s.08.18.26.42a7.62 7.62 0 002.98 2.42l-.06.03.05.03a8.33 8.33 0 00-2.21 1.52c-.34.32-.6.66-.76.9-.18.24-.26.42-.26.42s.18.06.47.12c.3.06.7.1 1.18.12.46 0 1-.04 1.54-.14.36-.06.74-.18 1.12-.3a7.84 7.84 0 00-.4 3.83c.06.3.12.48.12.48s.18-.08.42-.26a6.7 6.7 0 001.9-1.96c.22-.3.4-.63.58-1 .18.37.36.7.58 1a6.7 6.7 0 002.32 2.22s.06-.18.12-.48a6.29 6.29 0 00-.08-2.71 7.83 7.83 0 00-.32-1.12 8.6 8.6 0 002.66.44 8 8 0 001.18-.12c.3-.06.47-.12.47-.12s-.08-.18-.26-.42a7.62 7.62 0 00-2.98-2.42l.06-.03-.05-.03a8.33 8.33 0 002.21-1.52c.34-.32.6-.66.76-.9.18-.24.26-.42.26-.42s-.18-.06-.47-.12c-.3-.06-.7-.1-1.18-.12-.46 0-1 .04-1.54.14-.36.06-.74.18-1.12.3a7.84 7.84 0 00.4-3.83c-.06-.3-.12-.48-.12-.48s-.18.08-.42.26a6.7 6.7 0 00-1.9 1.96c-.22.3-.4.63-.58 1-.18-.37-.36-.7-.58-1a6.7 6.7 0 00-2.32-2.22zM42.38.76a6.09 6.09 0 011.16 4.97l-.22 1.04 1.03-.22a6.1 6.1 0 014.96 1.14h.02c.2.14.38.3.56.48l.1.1V6.43a7.41 7.41 0 00-4.94-1.4c.14-1.8-.38-3.6-1.47-5.03H41.7c.08.06.14.12.2.2l.48.56z'  stroke-width='1' stroke='none' fill='hsla(289, 4%, 80%, 1)'/><path d='M28.58 38.7c-1.5 0-2.8-.77-3.58-1.94v-3.02c.38 0 .7.32.7.7a2.86 2.86 0 002.88 2.86c1.18 0 2.15-.96 2.15-2.16 0-.88-.71-1.58-1.57-1.58a.7.7 0 01-.7-.7c0-.38.32-.7.7-.7a2.98 2.98 0 012.97 2.98c0 1.96-1.6 3.55-3.55 3.55zm6.57-6.56a2.98 2.98 0 01-2.98-2.98c0-.38.32-.7.7-.7.38 0 .7.32.7.7 0 .88.72 1.58 1.58 1.58 1.18 0 2.16-.96 2.16-2.15a2.87 2.87 0 00-2.86-2.88.7.7 0 01-.7-.7V25h3.03l-.01.01a4.28 4.28 0 011.94 3.58c0 1.95-1.6 3.55-3.56 3.55zM21.42 38.7c1.5 0 2.8-.76 3.58-1.93v-3.02a.7.7 0 00-.7.7 2.86 2.86 0 01-2.88 2.86 2.16 2.16 0 01-2.15-2.16c0-.88.71-1.58 1.57-1.58a.7.7 0 00.7-.7.7.7 0 00-.7-.7 2.98 2.98 0 00-2.97 2.98c0 1.96 1.6 3.55 3.55 3.55zm-6.57-6.55a2.98 2.98 0 002.98-2.98.7.7 0 00-.7-.7.7.7 0 00-.7.7c0 .88-.72 1.58-1.58 1.58a2.16 2.16 0 01-2.16-2.15 2.87 2.87 0 012.86-2.88.7.7 0 00.7-.7V25h-3.03l.01.01a4.28 4.28 0 00-1.94 3.58c0 1.95 1.6 3.55 3.56 3.55zm6.57-20.83c1.5 0 2.8.76 3.58 1.93v3.02a.7.7 0 01-.7-.7 2.86 2.86 0 00-2.88-2.86c-1.18 0-2.15.96-2.15 2.16 0 .88.71 1.58 1.57 1.58.38 0 .7.32.7.7a.7.7 0 01-.7.7 2.98 2.98 0 01-2.97-2.98c0-1.96 1.6-3.55 3.55-3.55zm-6.57 6.55a2.98 2.98 0 012.98 2.98.7.7 0 01-.7.7.7.7 0 01-.7-.7c0-.88-.72-1.58-1.58-1.58-1.18 0-2.16.96-2.16 2.15a2.87 2.87 0 002.86 2.88c.38 0 .7.32.7.7V25h-3.03l.01-.01a4.28 4.28 0 01-1.94-3.58c0-1.95 1.6-3.55 3.56-3.55zm13.73-6.55c-1.5 0-2.8.76-3.58 1.93v3.02a.7.7 0 00.7-.7 2.86 2.86 0 012.88-2.86c1.18 0 2.15.96 2.15 2.16 0 .88-.71 1.58-1.57 1.58a.7.7 0 00-.7.7c0 .38.32.7.7.7a2.98 2.98 0 002.97-2.98c0-1.96-1.6-3.55-3.55-3.55zm6.57 6.55a2.98 2.98 0 00-2.98 2.98c0 .38.32.7.7.7a.7.7 0 00.7-.7c0-.88.72-1.58 1.58-1.58 1.18 0 2.16.96 2.16 2.15a2.87 2.87 0 01-2.86 2.88.7.7 0 00-.7.7V25h3.03l-.01-.01a4.28 4.28 0 001.94-3.58c0-1.95-1.6-3.55-3.56-3.55z'  stroke-width='1' stroke='none' fill='hsla(289, 4%, 80%, 1)'/><path d='M25 23.5c-.83 0-1.5.66-1.5 1.5a1.5 1.5 0 103 0c0-.84-.67-1.5-1.5-1.5z'  stroke-width='1' stroke='none' fill='hsla(289, 4%, 80%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,-8)' fill='url(%23a)'/></svg>") */
+/* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='50' height='50' patternTransform='scale(5) rotate(120)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(218,22.6%,20.8%,1)'/><path d='M25 2.48s-.14.16-.32.44c-.2.28-.42.7-.62 1.18a9 9 0 00-.5 1.65c-.06.36-.12.72-.14 1.1a2.88 2.88 0 00-4.12 3.16 3.6 3.6 0 012.14-.7c.18 0 .34.02.52.04 1.26.16 2.36.88 3.04 1.9a4.32 4.32 0 013.04-1.9c.18-.02.34-.04.52-.04.8 0 1.54.26 2.14.7a2.88 2.88 0 00-4.12-3.16c-.02-.38-.08-.74-.14-1.1a9 9 0 00-.5-1.65c-.2-.48-.42-.9-.62-1.18-.18-.28-.32-.44-.32-.44zm-9 6.59a2.88 2.88 0 00-2.73 1.98 9.2 9.2 0 00-3.66-1.88 6.46 6.46 0 00-.54-.08s0 .22.08.54a8.74 8.74 0 001.88 3.65 2.9 2.9 0 00-1.14 4.78c.16.14.32.28.48.38a3.7 3.7 0 011.42-2.34 4.29 4.29 0 013.5-.82 4.2 4.2 0 011.14-3.87c.56-.58 1.26-.9 2-1.02A2.88 2.88 0 0016 9.07zm18 0a2.88 2.88 0 00-2.43 1.32 3.51 3.51 0 012.34 1.42 4.2 4.2 0 01.8 3.47 4.29 4.29 0 013.9 1.16c.56.56.9 1.28 1.02 2a2.9 2.9 0 00-.66-5.15 9.17 9.17 0 001.88-3.66c.08-.32.08-.54.08-.54s-.22.02-.54.08a8 8 0 00-2.78 1.22c-.3.2-.6.42-.88.66a2.88 2.88 0 00-2.74-1.98zM9.4 19.24a2.88 2.88 0 00-2.56 4.17 9 9 0 00-2.76.64 8.79 8.79 0 00-1.61.94l.01.01-.01.01s.16.14.44.32.68.4 1.18.62a9 9 0 002.75.64 2.88 2.88 0 003.16 4.12 3.6 3.6 0 01-.66-2.66 4.32 4.32 0 011.9-3.04l-.01-.01.01-.01a4.32 4.32 0 01-1.94-3.56c0-.8.26-1.53.7-2.13-.18-.04-.4-.06-.6-.06zm31.18 0c-.2 0-.42.02-.6.06a3.6 3.6 0 01.66 2.65 4.32 4.32 0 01-1.9 3.04l.01.01-.01.01a4.32 4.32 0 011.94 3.56c0 .8-.26 1.53-.7 2.13a2.88 2.88 0 003.16-4.12 9 9 0 002.76-.64c.5-.21.9-.43 1.17-.61.28-.18.44-.32.44-.32l-.01-.01.01-.01s-.16-.14-.44-.32-.68-.4-1.18-.62a9 9 0 00-2.75-.64 2.88 2.88 0 00-2.56-4.18zM10.37 31.56a2.9 2.9 0 00.66 5.15 9.17 9.17 0 00-1.88 3.66c-.08.32-.08.54-.08.54s.22-.02.54-.08a8 8 0 002.78-1.22c.3-.2.6-.42.88-.66a2.88 2.88 0 005.16.66 3.51 3.51 0 01-2.34-1.42 4.2 4.2 0 01-.8-3.47 4.29 4.29 0 01-3.9-1.16 3.7 3.7 0 01-1.02-2zm29.26 0a3.7 3.7 0 01-1.42 2.34 4.29 4.29 0 01-3.5.82 4.2 4.2 0 01-1.14 3.87c-.56.58-1.26.9-2 1.02a2.88 2.88 0 004.46.48c.34-.32.56-.72.7-1.14a9.2 9.2 0 003.66 1.88c.32.06.54.08.54.08s0-.22-.08-.54a8.74 8.74 0 00-1.88-3.65 2.9 2.9 0 001.14-4.78c-.16-.14-.32-.28-.48-.38zM25 38.76a4.32 4.32 0 01-3.04 1.89c-.18.02-.34.04-.52.04a3.6 3.6 0 01-2.14-.7 2.88 2.88 0 004.12 3.16c.02.38.08.74.14 1.1a9 9 0 00.5 1.65c.2.48.42.9.62 1.18.18.28.32.44.32.44s.14-.16.32-.44c.2-.28.42-.7.62-1.18a9 9 0 00.5-1.65c.06-.36.12-.72.14-1.1a2.88 2.88 0 004.12-3.16c-.6.44-1.34.7-2.14.7-.18 0-.34-.02-.52-.04a4.32 4.32 0 01-3.04-1.9z'  stroke-width='1' stroke='none' fill='hsla(214,35.4%,37.1%,1)'/><path d='M42.39 49.24a6.09 6.09 0 001.16-4.97l-.22-1.04 1.03.22a6.1 6.1 0 004.96-1.14h.02c.2-.14.38-.3.56-.48l.1-.1v1.84a7.41 7.41 0 01-4.94 1.4c.14 1.8-.38 3.6-1.47 5.03H41.7a.95.95 0 00.2-.2l.48-.56zm-34.78 0a6.09 6.09 0 01-1.16-4.97l.22-1.04-1.03.22A6.1 6.1 0 01.68 42.3H.66c-.2-.14-.38-.3-.56-.48l-.1-.1v1.84a7.41 7.41 0 004.94 1.4c-.14 1.8.38 3.6 1.47 5.03H8.3a.95.95 0 01-.2-.2l-.48-.56zm0-48.48a6.09 6.09 0 00-1.16 4.97l.22 1.04-1.03-.22A6.1 6.1 0 00.68 7.7H.66c-.2.14-.38.3-.56.48l-.1.1V6.43a7.41 7.41 0 014.94-1.4C4.8 3.23 5.32 1.43 6.4 0H8.3a.95.95 0 00-.2.2l-.48.56zm14.5 17.26s-.07.18-.13.48a6.29 6.29 0 00.08 2.71c.08.38.18.74.32 1.12a8.6 8.6 0 00-2.66-.44 8 8 0 00-1.18.12c-.3.06-.47.12-.47.12s.08.18.26.42a7.62 7.62 0 002.98 2.42l-.06.03.05.03a8.33 8.33 0 00-2.21 1.52c-.34.32-.6.66-.76.9-.18.24-.26.42-.26.42s.18.06.47.12c.3.06.7.1 1.18.12.46 0 1-.04 1.54-.14.36-.06.74-.18 1.12-.3a7.84 7.84 0 00-.4 3.83c.06.3.12.48.12.48s.18-.08.42-.26a6.7 6.7 0 001.9-1.96c.22-.3.4-.63.58-1 .18.37.36.7.58 1a6.7 6.7 0 002.32 2.22s.06-.18.12-.48a6.29 6.29 0 00-.08-2.71 7.83 7.83 0 00-.32-1.12 8.6 8.6 0 002.66.44 8 8 0 001.18-.12c.3-.06.47-.12.47-.12s-.08-.18-.26-.42a7.62 7.62 0 00-2.98-2.42l.06-.03-.05-.03a8.33 8.33 0 002.21-1.52c.34-.32.6-.66.76-.9.18-.24.26-.42.26-.42s-.18-.06-.47-.12c-.3-.06-.7-.1-1.18-.12-.46 0-1 .04-1.54.14-.36.06-.74.18-1.12.3a7.84 7.84 0 00.4-3.83c-.06-.3-.12-.48-.12-.48s-.18.08-.42.26a6.7 6.7 0 00-1.9 1.96c-.22.3-.4.63-.58 1-.18-.37-.36-.7-.58-1a6.7 6.7 0 00-2.32-2.22zM42.38.76a6.09 6.09 0 011.16 4.97l-.22 1.04 1.03-.22a6.1 6.1 0 014.96 1.14h.02c.2.14.38.3.56.48l.1.1V6.43a7.41 7.41 0 00-4.94-1.4c.14-1.8-.38-3.6-1.47-5.03H41.7c.08.06.14.12.2.2l.48.56z'  stroke-width='1' stroke='none' fill='hsla(202,46.1%,72.4%,1)'/><path d='M28.58 38.7c-1.5 0-2.8-.77-3.58-1.94v-3.02c.38 0 .7.32.7.7a2.86 2.86 0 002.88 2.86c1.18 0 2.15-.96 2.15-2.16 0-.88-.71-1.58-1.57-1.58a.7.7 0 01-.7-.7c0-.38.32-.7.7-.7a2.98 2.98 0 012.97 2.98c0 1.96-1.6 3.55-3.55 3.55zm6.57-6.56a2.98 2.98 0 01-2.98-2.98c0-.38.32-.7.7-.7.38 0 .7.32.7.7 0 .88.72 1.58 1.58 1.58 1.18 0 2.16-.96 2.16-2.15a2.87 2.87 0 00-2.86-2.88.7.7 0 01-.7-.7V25h3.03l-.01.01a4.28 4.28 0 011.94 3.58c0 1.95-1.6 3.55-3.56 3.55zM21.42 38.7c1.5 0 2.8-.76 3.58-1.93v-3.02a.7.7 0 00-.7.7 2.86 2.86 0 01-2.88 2.86 2.16 2.16 0 01-2.15-2.16c0-.88.71-1.58 1.57-1.58a.7.7 0 00.7-.7.7.7 0 00-.7-.7 2.98 2.98 0 00-2.97 2.98c0 1.96 1.6 3.55 3.55 3.55zm-6.57-6.55a2.98 2.98 0 002.98-2.98.7.7 0 00-.7-.7.7.7 0 00-.7.7c0 .88-.72 1.58-1.58 1.58a2.16 2.16 0 01-2.16-2.15 2.87 2.87 0 012.86-2.88.7.7 0 00.7-.7V25h-3.03l.01.01a4.28 4.28 0 00-1.94 3.58c0 1.95 1.6 3.55 3.56 3.55zm6.57-20.83c1.5 0 2.8.76 3.58 1.93v3.02a.7.7 0 01-.7-.7 2.86 2.86 0 00-2.88-2.86c-1.18 0-2.15.96-2.15 2.16 0 .88.71 1.58 1.57 1.58.38 0 .7.32.7.7a.7.7 0 01-.7.7 2.98 2.98 0 01-2.97-2.98c0-1.96 1.6-3.55 3.55-3.55zm-6.57 6.55a2.98 2.98 0 012.98 2.98.7.7 0 01-.7.7.7.7 0 01-.7-.7c0-.88-.72-1.58-1.58-1.58-1.18 0-2.16.96-2.16 2.15a2.87 2.87 0 002.86 2.88c.38 0 .7.32.7.7V25h-3.03l.01-.01a4.28 4.28 0 01-1.94-3.58c0-1.95 1.6-3.55 3.56-3.55zm13.73-6.55c-1.5 0-2.8.76-3.58 1.93v3.02a.7.7 0 00.7-.7 2.86 2.86 0 012.88-2.86c1.18 0 2.15.96 2.15 2.16 0 .88-.71 1.58-1.57 1.58a.7.7 0 00-.7.7c0 .38.32.7.7.7a2.98 2.98 0 002.97-2.98c0-1.96-1.6-3.55-3.55-3.55zm6.57 6.55a2.98 2.98 0 00-2.98 2.98c0 .38.32.7.7.7a.7.7 0 00.7-.7c0-.88.72-1.58 1.58-1.58 1.18 0 2.16.96 2.16 2.15a2.87 2.87 0 01-2.86 2.88.7.7 0 00-.7.7V25h3.03l-.01-.01a4.28 4.28 0 001.94-3.58c0-1.95-1.6-3.55-3.56-3.55z'  stroke-width='1' stroke='none' fill='hsla(182,82.4%,93.3%,1)'/><path d='M25 23.5c-.83 0-1.5.66-1.5 1.5a1.5 1.5 0 103 0c0-.84-.67-1.5-1.5-1.5z'  stroke-width='1' stroke='none' fill='hsla(12,82.6%,61.8%,1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>") */
+}
+/* .navbar
+{
+background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='50' height='50' patternTransform='scale(5) rotate(120)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(218,22.6%,20.8%,1)'/><path d='M25 2.48s-.14.16-.32.44c-.2.28-.42.7-.62 1.18a9 9 0 00-.5 1.65c-.06.36-.12.72-.14 1.1a2.88 2.88 0 00-4.12 3.16 3.6 3.6 0 012.14-.7c.18 0 .34.02.52.04 1.26.16 2.36.88 3.04 1.9a4.32 4.32 0 013.04-1.9c.18-.02.34-.04.52-.04.8 0 1.54.26 2.14.7a2.88 2.88 0 00-4.12-3.16c-.02-.38-.08-.74-.14-1.1a9 9 0 00-.5-1.65c-.2-.48-.42-.9-.62-1.18-.18-.28-.32-.44-.32-.44zm-9 6.59a2.88 2.88 0 00-2.73 1.98 9.2 9.2 0 00-3.66-1.88 6.46 6.46 0 00-.54-.08s0 .22.08.54a8.74 8.74 0 001.88 3.65 2.9 2.9 0 00-1.14 4.78c.16.14.32.28.48.38a3.7 3.7 0 011.42-2.34 4.29 4.29 0 013.5-.82 4.2 4.2 0 011.14-3.87c.56-.58 1.26-.9 2-1.02A2.88 2.88 0 0016 9.07zm18 0a2.88 2.88 0 00-2.43 1.32 3.51 3.51 0 012.34 1.42 4.2 4.2 0 01.8 3.47 4.29 4.29 0 013.9 1.16c.56.56.9 1.28 1.02 2a2.9 2.9 0 00-.66-5.15 9.17 9.17 0 001.88-3.66c.08-.32.08-.54.08-.54s-.22.02-.54.08a8 8 0 00-2.78 1.22c-.3.2-.6.42-.88.66a2.88 2.88 0 00-2.74-1.98zM9.4 19.24a2.88 2.88 0 00-2.56 4.17 9 9 0 00-2.76.64 8.79 8.79 0 00-1.61.94l.01.01-.01.01s.16.14.44.32.68.4 1.18.62a9 9 0 002.75.64 2.88 2.88 0 003.16 4.12 3.6 3.6 0 01-.66-2.66 4.32 4.32 0 011.9-3.04l-.01-.01.01-.01a4.32 4.32 0 01-1.94-3.56c0-.8.26-1.53.7-2.13-.18-.04-.4-.06-.6-.06zm31.18 0c-.2 0-.42.02-.6.06a3.6 3.6 0 01.66 2.65 4.32 4.32 0 01-1.9 3.04l.01.01-.01.01a4.32 4.32 0 011.94 3.56c0 .8-.26 1.53-.7 2.13a2.88 2.88 0 003.16-4.12 9 9 0 002.76-.64c.5-.21.9-.43 1.17-.61.28-.18.44-.32.44-.32l-.01-.01.01-.01s-.16-.14-.44-.32-.68-.4-1.18-.62a9 9 0 00-2.75-.64 2.88 2.88 0 00-2.56-4.18zM10.37 31.56a2.9 2.9 0 00.66 5.15 9.17 9.17 0 00-1.88 3.66c-.08.32-.08.54-.08.54s.22-.02.54-.08a8 8 0 002.78-1.22c.3-.2.6-.42.88-.66a2.88 2.88 0 005.16.66 3.51 3.51 0 01-2.34-1.42 4.2 4.2 0 01-.8-3.47 4.29 4.29 0 01-3.9-1.16 3.7 3.7 0 01-1.02-2zm29.26 0a3.7 3.7 0 01-1.42 2.34 4.29 4.29 0 01-3.5.82 4.2 4.2 0 01-1.14 3.87c-.56.58-1.26.9-2 1.02a2.88 2.88 0 004.46.48c.34-.32.56-.72.7-1.14a9.2 9.2 0 003.66 1.88c.32.06.54.08.54.08s0-.22-.08-.54a8.74 8.74 0 00-1.88-3.65 2.9 2.9 0 001.14-4.78c-.16-.14-.32-.28-.48-.38zM25 38.76a4.32 4.32 0 01-3.04 1.89c-.18.02-.34.04-.52.04a3.6 3.6 0 01-2.14-.7 2.88 2.88 0 004.12 3.16c.02.38.08.74.14 1.1a9 9 0 00.5 1.65c.2.48.42.9.62 1.18.18.28.32.44.32.44s.14-.16.32-.44c.2-.28.42-.7.62-1.18a9 9 0 00.5-1.65c.06-.36.12-.72.14-1.1a2.88 2.88 0 004.12-3.16c-.6.44-1.34.7-2.14.7-.18 0-.34-.02-.52-.04a4.32 4.32 0 01-3.04-1.9z'  stroke-width='1' stroke='none' fill='hsla(214,35.4%,37.1%,1)'/><path d='M42.39 49.24a6.09 6.09 0 001.16-4.97l-.22-1.04 1.03.22a6.1 6.1 0 004.96-1.14h.02c.2-.14.38-.3.56-.48l.1-.1v1.84a7.41 7.41 0 01-4.94 1.4c.14 1.8-.38 3.6-1.47 5.03H41.7a.95.95 0 00.2-.2l.48-.56zm-34.78 0a6.09 6.09 0 01-1.16-4.97l.22-1.04-1.03.22A6.1 6.1 0 01.68 42.3H.66c-.2-.14-.38-.3-.56-.48l-.1-.1v1.84a7.41 7.41 0 004.94 1.4c-.14 1.8.38 3.6 1.47 5.03H8.3a.95.95 0 01-.2-.2l-.48-.56zm0-48.48a6.09 6.09 0 00-1.16 4.97l.22 1.04-1.03-.22A6.1 6.1 0 00.68 7.7H.66c-.2.14-.38.3-.56.48l-.1.1V6.43a7.41 7.41 0 014.94-1.4C4.8 3.23 5.32 1.43 6.4 0H8.3a.95.95 0 00-.2.2l-.48.56zm14.5 17.26s-.07.18-.13.48a6.29 6.29 0 00.08 2.71c.08.38.18.74.32 1.12a8.6 8.6 0 00-2.66-.44 8 8 0 00-1.18.12c-.3.06-.47.12-.47.12s.08.18.26.42a7.62 7.62 0 002.98 2.42l-.06.03.05.03a8.33 8.33 0 00-2.21 1.52c-.34.32-.6.66-.76.9-.18.24-.26.42-.26.42s.18.06.47.12c.3.06.7.1 1.18.12.46 0 1-.04 1.54-.14.36-.06.74-.18 1.12-.3a7.84 7.84 0 00-.4 3.83c.06.3.12.48.12.48s.18-.08.42-.26a6.7 6.7 0 001.9-1.96c.22-.3.4-.63.58-1 .18.37.36.7.58 1a6.7 6.7 0 002.32 2.22s.06-.18.12-.48a6.29 6.29 0 00-.08-2.71 7.83 7.83 0 00-.32-1.12 8.6 8.6 0 002.66.44 8 8 0 001.18-.12c.3-.06.47-.12.47-.12s-.08-.18-.26-.42a7.62 7.62 0 00-2.98-2.42l.06-.03-.05-.03a8.33 8.33 0 002.21-1.52c.34-.32.6-.66.76-.9.18-.24.26-.42.26-.42s-.18-.06-.47-.12c-.3-.06-.7-.1-1.18-.12-.46 0-1 .04-1.54.14-.36.06-.74.18-1.12.3a7.84 7.84 0 00.4-3.83c-.06-.3-.12-.48-.12-.48s-.18.08-.42.26a6.7 6.7 0 00-1.9 1.96c-.22.3-.4.63-.58 1-.18-.37-.36-.7-.58-1a6.7 6.7 0 00-2.32-2.22zM42.38.76a6.09 6.09 0 011.16 4.97l-.22 1.04 1.03-.22a6.1 6.1 0 014.96 1.14h.02c.2.14.38.3.56.48l.1.1V6.43a7.41 7.41 0 00-4.94-1.4c.14-1.8-.38-3.6-1.47-5.03H41.7c.08.06.14.12.2.2l.48.56z'  stroke-width='1' stroke='none' fill='hsla(202,46.1%,72.4%,1)'/><path d='M28.58 38.7c-1.5 0-2.8-.77-3.58-1.94v-3.02c.38 0 .7.32.7.7a2.86 2.86 0 002.88 2.86c1.18 0 2.15-.96 2.15-2.16 0-.88-.71-1.58-1.57-1.58a.7.7 0 01-.7-.7c0-.38.32-.7.7-.7a2.98 2.98 0 012.97 2.98c0 1.96-1.6 3.55-3.55 3.55zm6.57-6.56a2.98 2.98 0 01-2.98-2.98c0-.38.32-.7.7-.7.38 0 .7.32.7.7 0 .88.72 1.58 1.58 1.58 1.18 0 2.16-.96 2.16-2.15a2.87 2.87 0 00-2.86-2.88.7.7 0 01-.7-.7V25h3.03l-.01.01a4.28 4.28 0 011.94 3.58c0 1.95-1.6 3.55-3.56 3.55zM21.42 38.7c1.5 0 2.8-.76 3.58-1.93v-3.02a.7.7 0 00-.7.7 2.86 2.86 0 01-2.88 2.86 2.16 2.16 0 01-2.15-2.16c0-.88.71-1.58 1.57-1.58a.7.7 0 00.7-.7.7.7 0 00-.7-.7 2.98 2.98 0 00-2.97 2.98c0 1.96 1.6 3.55 3.55 3.55zm-6.57-6.55a2.98 2.98 0 002.98-2.98.7.7 0 00-.7-.7.7.7 0 00-.7.7c0 .88-.72 1.58-1.58 1.58a2.16 2.16 0 01-2.16-2.15 2.87 2.87 0 012.86-2.88.7.7 0 00.7-.7V25h-3.03l.01.01a4.28 4.28 0 00-1.94 3.58c0 1.95 1.6 3.55 3.56 3.55zm6.57-20.83c1.5 0 2.8.76 3.58 1.93v3.02a.7.7 0 01-.7-.7 2.86 2.86 0 00-2.88-2.86c-1.18 0-2.15.96-2.15 2.16 0 .88.71 1.58 1.57 1.58.38 0 .7.32.7.7a.7.7 0 01-.7.7 2.98 2.98 0 01-2.97-2.98c0-1.96 1.6-3.55 3.55-3.55zm-6.57 6.55a2.98 2.98 0 012.98 2.98.7.7 0 01-.7.7.7.7 0 01-.7-.7c0-.88-.72-1.58-1.58-1.58-1.18 0-2.16.96-2.16 2.15a2.87 2.87 0 002.86 2.88c.38 0 .7.32.7.7V25h-3.03l.01-.01a4.28 4.28 0 01-1.94-3.58c0-1.95 1.6-3.55 3.56-3.55zm13.73-6.55c-1.5 0-2.8.76-3.58 1.93v3.02a.7.7 0 00.7-.7 2.86 2.86 0 012.88-2.86c1.18 0 2.15.96 2.15 2.16 0 .88-.71 1.58-1.57 1.58a.7.7 0 00-.7.7c0 .38.32.7.7.7a2.98 2.98 0 002.97-2.98c0-1.96-1.6-3.55-3.55-3.55zm6.57 6.55a2.98 2.98 0 00-2.98 2.98c0 .38.32.7.7.7a.7.7 0 00.7-.7c0-.88.72-1.58 1.58-1.58 1.18 0 2.16.96 2.16 2.15a2.87 2.87 0 01-2.86 2.88.7.7 0 00-.7.7V25h3.03l-.01-.01a4.28 4.28 0 001.94-3.58c0-1.95-1.6-3.55-3.56-3.55z'  stroke-width='1' stroke='none' fill='hsla(182,82.4%,93.3%,1)'/><path d='M25 23.5c-.83 0-1.5.66-1.5 1.5a1.5 1.5 0 103 0c0-.84-.67-1.5-1.5-1.5z'  stroke-width='1' stroke='none' fill='hsla(12,82.6%,61.8%,1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>")
+} */
+.companyLogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 10px;
+    float: left;
+
+}
+li[draggable]::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: darkorange; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+  ul {
+    list-style: none; /* Remove default bullets */
+    font-family: 'Lato', sans-serif;
+  }
+  .imageContainer {
+    display: block;
+
+  }
+
+  #myImage {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    padding: 15px;
+    /* border-image-source: url(https://res.cloudinary.com/dxsuizt1v/image/upload/v1690862156/Circle_rrv3zu.gif);
+    border-image-slice: 2% fill;
+    border-image-width: 10px; */
+
+}
+#boldSpan{
+    font-weight: bold;
+    color: #f60;
+}
+.row{
+    margin: none;
+    padding: none;
+}
+.container .col-xxl-8 {
+    margin: none;
+    padding: none;
+}
+
+.btn-custom-orange{
+  background-color: #f60; /* Adjust the hex color code as per your preference */
+  border-color: #f60;
+  color:white;
+
+}
+
+.btn-custom-orange:hover{
+  background-color: #f60; /* Adjust the hex color code as per your preference */
+  border-color: #f60;
+  color:white;
+  opacity: 0.5;
+}
+
+.shirtTitle{
+  color: aliceblue;
+  font-weight: bold;}
+  .imgTitle{
+    color: aliceblue;
+    font-weight: bold;}
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    
+    .form-control {
+      border-radius: 0;
+      border-color: #ddd;
+    }
+    
+    .form-control:focus {
+      border-color: #8fbdff;
+      box-shadow: none;
+    }
+    
+    .btn .contact{
+      border-radius: 0;
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+    
+    .carousel-control-next {
+      opacity: 2; /* Adjust the opacity as needed */
+      /* Add any other custom styles here */
+    }
+    
+    .carousel-control-next:hover {
+      opacity: 3; /* Increase the opacity on hover */
+      /* Add any other custom hover styles here */
+    }
+    .carousel-control-prev {
+      opacity: 2; /* Adjust the opacity as needed */
+      /* Add any other custom styles here */
+    }
+    
+    .carousel-control-prev:hover {
+      opacity: 3; /* Increase the opacity on hover */
+      /* Add any other custom hover styles here */
+    }
+
+    .fa {  
+      padding: 20px;  
+      text-align: center;  
+      margin: 5px 2px;  
+      font-size: 20px;  
+      width: 50px;  
+      border-radius: 50%;
+    }  
+
+    @media (max-width: 768px) {
+      .fa {  
+        width: 40px;  
+        margin: 0px;  
+
+      }
+    }
+    .fa-facebook {  
+      background: #3B5998;  
+      color: white;  
+    }  
+    
+    .fa-linkedin {  
+      background: #007bb5;  
+      color: white;  
+    }  
+    .fa-instagram {  
+      background: #f09433; 
+      background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+      background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+      background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      color: white;  
+    }  
+    .fa-medium {  
+      background: black;  
+      color: white;  
+    } 
+    .fa-whatsapp {  
+      background: #25D366;  
+      color: white;  
+    } 
+    .fa-spotify {  
+      background: black;  
+      color: white;  
+    } 
+    .fa:hover {  
+        opacity: 0.9;  
+    }  
+    .carousel-item img {
+      width: 800px;
+      height: 800px;
+      object-fit: cover;
+ 
+    }
+      /* Responsive image dimensions */
+  @media (max-width: 768px) {
+    .carousel-item img {
+      width: 100%;
+      height: 300px;
+    }
+  }
+  @media (max-width: 768px) {
+    .lead{
+      font-size: 17px;
+      margin: 5px;
+    }
+  }
+
+  .about{
+        /* font-family: inherit; */
+        font-size: 17px;
+  }
+  @media (max-width: 768px) {
+    .about{
+      font-size: 16px;
+      margin: 5px;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .mobile-caption {
+      display: block;
+      font-size: 10px;
+      position: absolute;
+      left: 50%;
+      bottom: 20px;
+      transform: translateX(-50%);
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      color: white;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .custom-navbar {
+    background-color: blue; /* Set your desired background color */
+    opacity: 0.7;
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    color: #FFFFFF; /* Set your desired text color */
+  }
+
+      /* CSS to style the loading screen */
+      #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(162, 158, 158);
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      /* Hide the loading screen when the page has finished loading */
+      #loading-screen.loaded {
+        display: none;
+      }  
+      #loading-screen.hide {
+        display: none;
+      }
+     
+         /* Customize the spinner */
+    .custom-spinner {
+      width: 200px;
+      height: 200px;
+      background-image: url("https://res.cloudinary.com/dxsuizt1v/image/upload/v1689447416/loader_mexo1t.gif"); /* Replace with your custom image URL */
+      background-size: cover;
+      animation: spin 2s linear infinite;
+      align-items: flex-start;
+    }
+    /* @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    } */
+    #title{
+      font-weight: bold;
+      font-size: 60px;
+      text-align: center; 
+      font-family: 'Lato', sans-serif;
+      
+  }
+  @media (max-width: 768px) {
+    #title{
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    #loading-screen {
+        align-items: center
+        /* display: none;*/
+    }
+    .custom-spinner {
+      width: 100px;
+      height: 100px;
+      /* display: none; */
+
+  }
+}
+.section{
+  display: none;
+}
+.btn-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-show {
+  background-color: #f60;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-show:hover {
+  background-color: #2980#f70;
+}
+
+.zoom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.zoom-image {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: zoom-in;
+}
+
+.family_link {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #f60;
+      color: #ffffff;
+      text-decoration: none;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+}
+.family_link2 {
+  display: inline-block;
+  padding-left: 15px !important;
+  background-color: #f60;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+/* Add underline on hover */
+.family_link:hover {
+  background-color: #f60;
+}
+.family_image{
+  display: block;
+  /* align-items: center;
+  justify-content: center; */
+  margin: 0 auto;
+  border: 3px solid #ccc; /* Border color */
+  padding: 10px; /* Space between the image and the border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  position: relative;
+ 
+}
+@media (max-width: 768px) {
+  .family_image {
+    width: 200px;
+  }
+  .family_link2 {
+    padding-left: 10px !important;
+
+  }
+}
+
+.tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.person {
+  margin: 10px;
+}
+
+.family_footer {
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .family_footer {
+    width: 200px;
+  }
+  
+}
+/* CSS for fly-in effect */
+/* @keyframes flyIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+} */
+.round-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  /* animation: flyIn 0.5s ease forwards; */
+  /* opacity: 0; */
+}
+
+/* Delay the animation for each button */
+/* .round-button:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.round-button:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.round-button:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.round-button:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.round-button:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.round-button:nth-child(6) {
+  animation-delay: 0.6s;
+} */
+.round-button:hover {
+  transform: translateY(-10px);
+}
+/* Specific styles for the LinkedIn button */
+.linkedin-button {
+  background-color: #0077b5; /* LinkedIn's blue color */
+  color: white;
+}
+.facebook-button{
+  background-color: #3b5998; /* Facebook's blue color */
+  color: white;
+}
+.instagram-button {
+  background-color: #e4405f; /* Instagram's pink color */
+  color: white;
+}
+.medium-button {
+  background-color: #000000; /* Medium's black color */
+  color: white;
+}
+/* WhatsApp Button styles */
+.whatsapp-button {
+  background-color: #25d366; /* WhatsApp's green color */
+  color: white;
+}
+.up-button{
+  width: 50px;
+  height: 50px;
+  line-height: 40px; /* Center the icon vertically */
+  margin-top: 0; /* Set margin-top to 0 to center the icon */
+  font-size: 25px; /* Increase the font size to make the icon larger */
+}
+
+
+
+/* Font Awesome is not needed, remove it */
+.scroll-up {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 999;
+  background-color: #f60;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.scroll-up::before {
+  content: "\2191"; /* Unicode character for the upwards arrow */
+}
+/* custom.css */
+.btn-outline-success {
+  color: #f60;
+  border-color: #f60;
+}
+
+/* If you want to change the background color when hovering */
+.btn-outline-success:hover {
+  background-color: #f60;
+  color: white; /* To change the text color when hovering */
+}
+
+
+.fam{
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Adjust the values as needed */
+  color: white;
+  font-size: 33px;
+  background: linear-gradient(rgba(161, 158, 158, 0.4), rgba(99, 97, 97, 0.4));
+  padding: 10px;
+  border-radius: 5px;
+  
+
+}
+
+.round-btn {
+  border-radius: 20px; /* Adjust the value to control the roundness */
+  padding: 3px 5px; /* Adjust the padding to control the size */
+  width: 80px;
+  margin-top: 10px; /* Adjust the value to control the space between heading and button */
+  margin-bottom: 10px; /* Add margin at the bottom to create space */
+
+}
+
+
+@media (max-width: 768px) {
+  .round-btn  {
+    width:70px;
+  }
+  .fam{
+     font-size: 20px;
+  }
+  .cit{
+    font-size: 10px;
+  }
+  .carousel-weather .carousel-caption  .carousel-weather i {
+    font-size: 12px;
+    padding: 0px;
+
+
+  }
+}
+/* Customize the map container size */
+#map {
+  width: 100%;
+  height: 500px; /* Set the height as desired (you can change this value) */
+  border: 3px solid #f60;
+  border-radius: 5px;
+}
+ /* Styling for the city name label */
+ .city-name-label {
+  text-align: center;
+  color: white;
+  background-color: #f60;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Styling for the city name tooltip */
+.city-name-tooltip {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.2;
+}
+.visitedInfo {
+  font-size: 18px !important;/* Customize the font size */
+  color: black;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .visitedInfo{
+    font-size: 17px !important;/* Customize the font size */
+    padding-left: 10px;
+  }
+  .mb-3{
+    padding-left: 10px;
+
+  }
+}
+
+.carousel-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16x;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Adjust the values as needed */
+  color: #f60;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)); */
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff; }
+
+.carousel-weather i {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.carousel-weather p {
+  margin: 0;
+}
+.carousel-caption
+{
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Adjust the values as needed */
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;  }
+
+/* Styling for the dropdown container */
+.dropdownRes {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+/* Styling for the dropdown toggle */
+.dropdownRes-toggle {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* padding: 10px; */
+  border: none;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight:bold;
+}
+@media (max-width: 768px) {
+  .dropdownRes-toggle {
+    font-size: 18px;
+  }
+}
+/* Styling for the location label */
+.location-label {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+/* Styling for the highlighted location */
+.location-highlight {
+  color: #f60;
+}
+
+/* Styling for the chevron icon */
+.chevron-icon {
+  width: 16px;
+  height: 16px;
+  fill: #f60;
+  vertical-align: middle;
+  margin-left: 4px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+/* Styling for the dropdown content */
+.dropdownRes-content {
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 150px;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 1;
+  border-radius: 8px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+/* Show dropdown content when the container is open */
+.dropdownRes.show .dropdownRes-content {
+  display: block;
+}
+
+/* Styling for the dropdown inner container */
+.dropdownRes-inner {
+  padding: 10px;
+}
+
+/* Styling for the list of destinations */
+.destination-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling for each list item */
+.destination-list li {
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+/* Styling for each list item on hover */
+.destination-list li:hover {
+  background-color: #f9f9f9;
+}
+.restaurant-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px 20px; /* Remove top margin and adjust horizontal margin */
+  width: 100%;
+  /* margin: 20px auto; */
+  /* max-width: 1200px; */
+}
+
+.restaurant-card {
+  width: calc(20% - 20px);
+  /* flex: 0 0 calc(20% - 20px);  */
+  height: 320px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #fff; /* Set the background color of the card */
+  color: #000; /* Set the text color for restaurant name and address to black */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+
+  border-radius: 10px;
+}
+
+.restaurant-card h3 {
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px; /* Adjust the font size as needed */
+  max-height: 40px; /* Set a maximum height for the name */
+  overflow: hidden; /* Hide any overflow beyond the max height */
+  text-overflow: ellipsis; /* Display an ellipsis (...) for truncated text */
+  white-space: nowrap; /* Prevent text from wrapping */
+  font-weight:bold;
+
+}
+
+.restaurant-card p {
+  margin: 5px 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px; /* Adjust the font size as needed */
+  max-height: 40px; /* Set a maximum height for the name */
+  overflow: hidden; /* Hide any overflow beyond the max height */
+  text-overflow: ellipsis; /* Display an ellipsis (...) for truncated text */
+  white-space: nowrap; /* Prevent text from wrapping */
+
+}
+
+.restaurant-card-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 11px; /* Adjust the padding for a smaller button */
+  border-radius: 20px; /* Adjust the border-radius to match the corners of the button */
+  background-color: #f60;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.restaurant-card a:hover {
+  background-color: #e0501f;
+}
+
+
+@media (max-width: 768px) {
+  .restaurant-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .restaurant-card {
+    width: 100%;
+  }
+}
+
+.location.location-highlight {
+  border-bottom: 2px solid currentColor; /* Use the same color as the text color */
+  padding-bottom: 2px; /* Add a bit of space below the border */
+}
+.orange_link{
+  color: #f60;
+  font-weight:bold;
+  text-decoration: none; /* Remove underline */
+
+}
+.line{
+  
+  text-decoration: underline; /* Remove underline */
+
+}
+/* Remove the background color on hover */
+.orange_link:hover {
+  background-color: transparent !important;
+  
+}
+.black_link{
+  color: black;
+  font-weight:bold;
+  text-decoration: none; /* Remove underline */
+
+}
+/* Remove the background color on hover */
+.black_link:hover {
+  background-color: transparent !important;
+  
+}
+
+.rows_cards_title{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px; /* Adjust the font size as needed */
+  font-weight:bold;
+
+}
+@media (max-width: 768px) {
+
+  .rows_cards_title{
+    font-size: 15px;
+  }
+  .px-5{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+.container-main{
+  font-family: 'Lato', sans-serif;
+
+}
+/* Styles for the overlay */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.overlay-content {
+  padding: 10px; /* Gap around the image */
+  border: 3px solid #ccc; /* Border for the frame */
+  border-radius: 10px; /* Rounded corners for the frame */
+  background-color: white; /* Background for the frame */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.overlay-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+#errorImg{
+  width:300px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+#errorMsg{
+  color: #f60;
+  font-size: 40px;
+}
+/* .nav-link{
+  color:black;
+} */
+
+.card {
+  min-height: 400px; /* Set a minimum height for the cards */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-container {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 200px; /* Limit the maximum height for the images */
+
+}
+
+.card-img {
+  max-width: 100%;
+  max-height: 100%; /* Ensure the image doesn't exceed the container */
+  object-fit: cover; /* Scale the image uniformly */
+}
+
+.card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Allow the card body to expand to fill the card */
+}
+
+.card-text {
+  flex-grow: 1; /* Allow text to grow if needed */
+}
+
+.btn-group {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+
+.carousel_food {
+  margin: 20px;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+}
+
+.h2_food {
+  margin-bottom: 10px;
+  color: #f60;
+  font-weight: bold;
+}
+.h3_food {
+  margin-bottom: 10px;
+  color: #f60;
+}
+
+.arrow_food{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute; /* Position arrows absolutely */
+  top: 50%; /* Position at 50% from the top */
+  transform: translateY(-50%); /* Adjust to vertically center */
+}
+
+.arrow-left_food {
+  left: 10px;
+}
+.arrow-right_food {
+  right: 10px;
+}
+
+.card-container_food{
+  display: flex;
+  overflow-x: scroll;
+}
+
+.card_food{
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-width: 300px;
+  box-shadow: 6px 6px 0 #f0f0f0; /* Horizontal offset 5px to the right, Vertical offset 5px down, No blur, Color #F60 */
+  transition: transform 0.3s ease-in-out;
+
+}
+.card_food:hover {
+  transform: translateY(-10px);
+}
+
+.card_img_food{
+  /* width: 100%;
+  height: auto; */
+  width:280px;
+  height:240px;
+  object-fit: cover; /* Make the image cover the container */
+}
+.card_img_movie{
+  /* width: 100%;
+  height: auto; */
+  width:280px;
+  height:350px;
+  object-fit: cover; /* Make the image cover the container */
+
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .carousel_food {
+    padding: 5px;
+  }
+
+  .card_food {
+    max-width: 250px;
+  }
+  .card_img_food{
+    /* width: 100%;
+    height: auto; */
+    width:180px;
+    height:140px;
+  }
+  .card_img_movie{
+    /* width: 100%;
+    height: auto; */
+    width:190px;
+    height:250px;
+  }
+  .h2_food {
+    margin-bottom: 5px;
+    font-size: 25px;
+  }
+  .h3_food {
+    margin-bottom: 5px;
+    font-size: 17px;
+  }
+  .p_card{
+    font-size: 14px;
+
+  }
+}
+
+@media (max-width: 576px) {
+  .card_food {
+    max-width: 250px;
+  }
+}
+.btn-custom {
+  background-color: #FF6600; /* F60 color */
+  height:27px; /* Adjust the height as needed */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  margin-bottom: 5px;
+  padding: 0 17px; /* Adjust padding to center the text horizontally */
+    line-height: 27px; /* Adjust line height to center the text vertically */
+  
+}
+
+.btn-custom:hover {
+  background-color: #f60; /* Adjust the hex color code as per your preference */
+  border-color: #f60;
+  color:white;
+  opacity: 0.5;}
+
+  .container_frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio (height/width) */
+   }
+
+   .frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #ccc; /* Border color */
+    padding: 10px; /* Space between the image and the border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+  .frame iframe {
+    margin: 0; /* Remove margin */
+  }
+
+
+.responsive-iframe {
+    width: 100%;
+    height: 100%;
+}
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* Maintain 16:9 aspect ratio (height/width) */
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn-tshirt, .btn-hoodie {
+  background-color: #FF6600; /* Custom color */
+  color: #fff; /* Text color */
+  padding: 8px 16px; /* Adjust padding */
+  text-decoration: none; /* Remove underlines */
+  border: none;
+  border-radius: 25px; /* Increased border radius for rounded appearance */
+  font-weight: bold; /* Make text bold for elegance */
+  font-size: 16px; /* Adjust font size */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.btn-tshirt:hover, .btn-hoodie:hover {
+  
+
+  background-color: #F5F5F5; /* Lighter grey color on hover */
+    color: #FFA500; /* Lighter orange text color on hover */
+  
+}
+
+.quote-container {
+  text-align: center;
+  align-items: center;
+  /* padding: 20px; */
+  border-radius: 8px;
+  background: linear-gradient(rgba(16, 8, 8, 0.561), rgba(28, 28, 28, 0.516));
+  box-shadow: 0 0 10px rgba(235, 187, 187, 0.1); 
+  max-width: 550px;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: black; /* Orange color */
+  padding-right: 10px;
+  padding-left: 10px; 
+
+}
+
+.author-name {
+  font-size: 24px;
+  color: black; /* Orange color */
+  text-align: right;
+  margin-top: 8px;
+  font-style: italic;
+  padding-right: 10px;
+  
+}
+
+.openai-logo {
+  width: 70px;
+  height: 77px;
+  /* margin-bottom: 10px; */
+}
+
+@media (max-width: 768px) {
+  .openai-logo {
+    width: 60px;
+    height: 66px;
+  }
+}
+.powered-by {
+  display: flex; /* Display the elements on the same line */
+  margin-top: 10px; /* Adjust the margin as needed */
+  align-items: center;
+  justify-content: center;
+}
+#loading{
+  width: 100px;
+  display: inline-flex;
+}
+#loading.hide {
+  display: none;
+}
+
+.image-button {
+  background: none;
+  width: 60px;
+
+  border: none;
+  padding: 0;
+  cursor: pointer;}
+  .hide{
+    display: none;
+    
+    }
+    #errorImg{
+      width:300px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+    }
+    #errorMsg{
+      color: #f60;
+      font-size: 30px;
+    }
+    @media (max-width: 768px) {
+      #errorMsg{
+        font-size: 20px;
+        padding-left: 5px;
+      }
+    }
+
+    /* Style the Image Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image {
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Style the Modal */
+/* Style the Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: auto;
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%; /* Adjust as needed */
+  height: 80%; /* Adjust as needed */
+  background-color: #fff;
+  border: 2px solid black; /* Frame around the image */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.family_image:hover::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  background-image: url('zoom_icon.png'); /* Add the path to your zoom-in icon */
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.family_image:hover::after {
+  opacity: 1;
+}
+.left_li{
+  text-align: left;
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .left_li{
+    font-size: 17px ;/* Customize the font size */
+  }
+}
