@@ -246,6 +246,12 @@
                 "link": "https://www.imdb.com/title/tt0087843/"
               },
               {
+                "image": "https://m.media-amazon.com/images/M/MV5BMWYwMzNkOWEtNjA3YS00YjE5LTlkMjYtMmRjMjExNjA1NDM0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.webp",
+                "title": "Sisu",
+                "description": "When an ex-soldier who discovers gold in the Lapland wilderness tries to take the loot into the city, German soldiers led by a brutal SS officer battle him.",
+                "link": "https://www.imdb.com/title/tt14846026/"
+              },
+              {
                 "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1697801314/The_Dictator_Poster_znztbt.jpg",
                 "title": "The Dictator",
                 "description": "The heroic story of a dictator who risked his life to ensure that democracy would never come to the country he so lovingly oppressed.",
@@ -421,6 +427,12 @@
                 "title": "Chuchelo",
                 "description": "Unpopular girl being bullied in her class.",
                 "link": "https://www.imdb.com/title/tt0145033/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BMDkwYTgxNDEtM2QxZi00ODk5LWI5MjctYjM2MzdjYzcyMzkzXkEyXkFqcGdeQXVyMTM2MDY0OTYx._V1_QL75_UY281_CR0,0,190,281_.webp",
+                "title": "Pasport",
+                "description": "A case of mistaken identity, by a switched Passport leaves a Georgian man stranded in Israel.",
+                "link": "https://www.imdb.com/title/tt0100337/"
               },
               {
                 "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560574/movies/soviet_movies_lilac_ball_sect3m.webp",
@@ -617,10 +629,22 @@
                 "link": "https://www.imdb.com/title/tt2442560/"
               },
               {
+                "image": "https://m.media-amazon.com/images/M/MV5BMDVjZDQ2N2MtMzMxYy00ZjliLTg5YjAtNjk1OTUwYjVjNWQ0XkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_FMjpg_UX1000_.webp",
+                "title": "True Blood",
+                "description": "Telepathic Sookie Stackhouse encounters a strange supernatural world when she meets the mysterious Bill Compton, a southern gentleman and vampire.",
+                "link": "https://www.imdb.com/title/tt0844441/"
+              },
+              {
                 "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560618/movies/global_series_star_trek_-_next_generation_et0zwr.webp",
                 "title": "Star Trek - Next Generation",
                 "description": "A science fiction franchise exploring space exploration, technology, and the human condition.",
                 "link": "https://www.imdb.com/title/tt0060028/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BNTgxNDZlODQtNDcwOC00NWQ5LTljNWMtMDhjY2U5YTUzMTc4XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.webp",
+                "title": "Mad men",
+                "description": "A drama about one of New York's most prestigious ad agencies at the beginning of the 1960s, focusing on one of the firm's ad executives, Donald Draper.",
+                "link": "https://www.imdb.com/title/tt0804503/"
               },
               {
                 "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560589/movies/global_series_the_x-files_iihyyt.webp",
@@ -633,6 +657,12 @@
                 "title": "The Nanny",
                 "description": "A sitcom featuring a fashion queen becoming a nanny for a wealthy family.",
                 "link": "https://www.imdb.com/title/tt0106080/"
+              },
+              {
+                "image": "https://m.media-amazon.com/images/M/MV5BZmQ0NDE5NjYtMGU4OS00NGMwLWJmOGYtZjVmYTFhMzA3ZGQ2XkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_.webp",
+                "title": "Baby Reindeer",
+                "description": "Dealing with a female stalker, a man is forced to face a dark, buried trauma.",
+                "link": "https://www.imdb.com/title/tt13649112/"
               },
               {
                 "image": "https://res.cloudinary.com/dxsuizt1v/image/upload/v1695560600/movies/global_series_the_a-team_gxc2qd.webp",

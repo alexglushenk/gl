@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     /* background-image: url('https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761444/b_jer_ouwnxf.webp'); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.396), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761444/b_jer_ouwnxf.webp');
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.396), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dxsuizt1v/image/upload/v1691761444/b_jer_ouwnxf.webp'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.396), rgba(0, 0, 0, 0.5)), url('https://res.cloudinary.com/dxsuizt1v/image/upload/v1714205375/milky-way-2695569_1920_xiew0k.webp');
 
     background-size: cover;
     font-family: 'Lato', sans-serif;
